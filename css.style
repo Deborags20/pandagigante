@@ -1,0 +1,54 @@
+* {
+    font-size: arial, sans-serif;
+    font-size: 16px;
+    color:rgb(64, 64, 64);
+    color: rgba(red, green, blue, alpha);
+
+
+
+
+
+}
+
+a {
+    text-decoration: none;
+    cursor: inherit;
+    color: inherit;
+}
+
+.paginacao li {
+    list-style: none;
+
+
+}
+
+.paginacao li {
+    display: flex;
+    height: 32px;
+    width: 30px;
+    margin-right: 2px;
+    margin-left: 2px;
+    cursor: pointer;
+    background-color: greenyellow;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 4px;
+
+}
+.paginacao_anterior: hover;
+.paginacao_numero: hover;
+.paginacao_proximo: hover {
+    border-color: 1px, solid rgb(238, 238, 238);
+}
+
+.paginacao_anterior: active;
+.paginacao_numero: active;
+.paginacao_proximo: active {
+    background-color: rgb(0, 131, 202, 0.467);
+    color: rgb(255, 255, 255);
+}
+    
+
+.paginacao_selecionado{
+    background-color:rgb(79, 167, 214);
+    color: rgb(255, 255, 255);
